@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Kauã Souza | Portfólio</title>
+  <link rel="stylesheet" href="teste.css">
+</head>
+<body>
+
+  <!-- NAVBAR -->
+  <header class="navbar">
+    <div class="logo">Kauã Souza</div>
+
+    <ul class="menu">
+      <li><a href="#inicio">Início</a></li>
+      <li><a href="#sobre">Sobre</a></li>
+      <li><a href="#projetos">Projetos</a></li>
+      <li><a href="#contato">Contato</a></li>
+    </ul>
+
+    <a href="#contato" class="btn-contato">Contato</a>
+  </header>
+
+  <!-- HERO -->
+  <section id="inicio" class="hero">
+    <div class="hero-text">
+      <p>Olá, eu sou</p>
+      <h1>Kauã Souza</h1>
+      <h3>Desenvolvedor Front-End</h3>
+      <p>Transformando ideias em códigos</p>
+
+      <div class="buttons">
+        <a href="#projetos" class="btn-primary">Ver Projetos</a>
+        <a href="#sobre" class="btn-secondary">Sobre Mim</a>
+      </div>
+    </div>
+
+    <div class="hero-img">
+      <img src="imagens/file_00000000228c720e8e0c96ebc8f14be2[1].png" alt="Kauã Souza">
+    </div>
+  </section>
+
+  <!-- SOBRE -->
+  <section id="sobre">
+    <h2>Sobre Mim</h2>
+    <p>
+      Sou estudante de programação focado em Front-End. Com experiência em HTML, CSS e JavaScript
+      Busco evoluir e criar projetos cada vez mais profissionais.
+    </p>
+  </section>
+
+  <!-- PROJETOS -->
+  <section id="projetos">
+    <h2>Meus Projetos</h2>
+
+    <div class="cards">
+      <div class="card">Projeto 1</div>
+      <div class="card">Projeto 2</div>
+      <div class="card">Projeto 3</div>
+    </div>
+  </section>
+
+  <!-- CONTATO -->
+  <section id="contato">
+    <h2>Contato</h2>
+    <p>Quer falar comigo? Me chama:</p>
+
+    <div class="contact-buttons">
+      <a href="kauafaria2656@gmail.com" target="_blank"
+rel="noopener noreferrer">Email</a>
+      <a href="https://wa.me/5521992400920" target="_blank"
+rel="noopener noreferrer">WhatsApp</a>
+      <a href="https://instagram.com/kaua_bxd2/" target="_blank"
+rel="noopener noreferrer">Instagram</a>
+      <a href="https://github.com/kaua-souza-dev" target="_blank"
+rel="noopener noreferrer"
+>GitHub</a>
+    </div>
+  </section>
+
+  <a href="javascript:void(0)" onclick="rolarPara('contato')">Contato</a>
+
+
+    <script>
+function rolarPara(id) {
+  document.getElementById(id).scrollIntoView({
+    behavior: 'smooth'
+  });
+}
+</script>
+
+
+</body>
+</html>
