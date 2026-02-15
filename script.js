@@ -19,3 +19,4 @@ btnSobre.addEventListener("click", function() {
 btnContato.addEventListener("click", function() {
     alert("Você pode me chamar no Instagram ou WhatsApp!");
 });
+
